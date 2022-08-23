@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+body{
+    background:gainsboro;
+    margin:0;
+    font-family: 'Heebo', sans-serif;;
+}
+div {
+    box-sizing: border-box;
+}
+
+div.post{
+    background:white;
+    margin-top:12px;
+}
+div.post img{
+    width: 100%;
+}
+.post-header i:last-child{
+    display: inline-block;
+    width: 65%;
+     margin:17px 10px 0 0;
+
+}
+#elipsis{
+    float:right;
+    width: 32%;
+    padding: 5px 10px 0 0 ;
+    color: black;
+    text-align: right;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin :0 ;
+}
+
+.container{
+    width:600px;
+    margin:auto;
+}
+div.post p{
+    text-align: justify;
+}
+div.post-header p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.texto{
+    display: inline-block;
+    width: 33%;
+}
+.post-header> i{
+    color: red;
+    font-size: 55px;
+    margin: 5px 0 0 10px;
+   
+}
+
+.footer{
+    margin: 10px;
+}
+.footer i:last-child{
+    float: right;
+    margin-right:5px;
+}
+.footer> i{
+   padding: 0 5px 0 5px;
+}
